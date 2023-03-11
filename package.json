@@ -1,5 +1,5 @@
 {
-	"name": "svg-dedupe",
+	"name": "react-svg-dedupe",
 	"version": "0.1.0",
 	"main": "dist/index.js",
 	"dependencies": {
@@ -12,24 +12,6 @@
 	},
 	"scripts": {
 		"build": "rimraf dist && tsc"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
 	},
 	"devDependencies": {
 		"rimraf": "^4.4.0"

@@ -8,4 +8,4 @@ Deduped SVG moves svgs out of the normal flow of the document and instead places
 </DedupedSVG>
 ```
 
-All instances of the svg will instead be replaced with a reference to the single SVG being rendered.
+All instances of DedupedSVG with the same `id` will instead be replaced with a reference to the single SVG being rendered.
